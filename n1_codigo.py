@@ -10,6 +10,9 @@ print("Filipe Martins - 21538237")
 print("Gustavo Souza da Silva - 21572052")
 print("Lucas Rodrigues de Andrade - 21570701")
 
+print("olá aventureiro, para iniciar  digite qualquer número")
+iniciar=int(input())
+
 while tentativas < 7 and sala < 10:
     tentativas = tentativas + 1
     print(f"Você está na sala: {sala}")
