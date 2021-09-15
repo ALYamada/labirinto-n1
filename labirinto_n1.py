@@ -4,6 +4,15 @@ sala = 1
 caminho = 0
 tentativas = 0
 
+print("Allan Yamada - 21516669")
+print("Breno Perondi - 21538372")
+print("Filipe Martins - 21538237")
+print("Gustavo Souza da Silva - 21572052")
+print("Lucas Rodrigues de Andrade Segatti - 21570701")
+
+print("Olá aventureiro, para iniciar  digite qualquer número")
+iniciar=int(input())
+
 while tentativas < 7 and sala < 10:
     tentativas = tentativas + 1
     print(f"Você está na sala: {sala}")
@@ -35,3 +44,4 @@ while tentativas < 7 and sala < 10:
         sala = sala + caminho
 else:
     print("Suas tentativas acabaram. Tente novamente.")
+
