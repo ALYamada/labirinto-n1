@@ -10,7 +10,7 @@ print("Filipe Martins - 21538237")
 print("Gustavo Souza da Silva - 21572052")
 print("Lucas Rodrigues de Andrade Segatti - 21570701")
 
-print("olá aventureiro, para iniciar  digite qualquer número")
+print("Olá aventureiro, para iniciar  digite qualquer número")
 iniciar=int(input())
 
 while tentativas < 7 and sala < 10:
@@ -44,3 +44,4 @@ while tentativas < 7 and sala < 10:
         sala = sala + caminho
 else:
     print("Suas tentativas acabaram. Tente novamente.")
+
